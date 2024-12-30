@@ -1,9 +1,10 @@
 terraform {
   backend "remote" {
-    organization = "massive-dynamic3"
+    organization = "terraform-cloud"
 
     workspaces {
-      name = "terraform-cloud"
+      name = "massive-dynamic5"
     }
   }
 }
+#badj
